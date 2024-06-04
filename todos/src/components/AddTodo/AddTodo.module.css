@@ -1,0 +1,35 @@
+.form {
+  width: 100%;
+  display: flex;
+  padding: 1.4rem 1rem;
+}
+
+.input {
+  flex: 1 0 auto;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-primary);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.input::placeholder {
+  color: var(--color-white);
+  font-size: 0.9rem;
+}
+
+.input:focus {
+  color: var(--color-white);
+}
+
+.button {
+  padding: 0 2rem;
+  font-size: 0.9rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}

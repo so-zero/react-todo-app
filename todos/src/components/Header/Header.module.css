@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.4rem 1rem;
+}
+
+.filters {
+  margin-top: 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.filter {
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  text-transform: capitalize;
+  border-radius: 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
+}
+
+.filter:hover,
+.filter.selected {
+  opacity: 1;
+  background-color: var(--color-accent);
+}
